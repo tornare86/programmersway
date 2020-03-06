@@ -3,7 +3,7 @@ Program1.txt 부터 Program7.txt 까지 순서대로 풀면 됩니다.
   
 ---------------------------------------------------------  
   
-박흥수: Program2_06  
-김지욱: Program2_04  
-이동기: 정리중  
+박흥수: Program2_06.java  
+김지욱: Program2_04.java  
+이동기: Program1_04.java  
 유성일: 참여예정  
