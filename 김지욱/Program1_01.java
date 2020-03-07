@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Program1_01 {
 	public static void main(String[] args) throws IOException {
 		Scanner scan = new Scanner(System.in);
-		System.out.print("x°ªÀ» ÀÔ·ÂÇÏ¼¼¿ä-> ");
+		System.out.print("xï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½-> ");
 		String x_ = scan.nextLine();
 		scan.close();
 		int x = Integer.parseInt(x_);
@@ -15,7 +15,7 @@ public class Program1_01 {
 			for (int j = 0; j < x; j++) {
 				System.out.printf("%2d ", n);
 				n++;
-			}
+			} 
 			System.out.printf("\n");
 		}
 	}
