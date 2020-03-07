@@ -2,7 +2,7 @@ public class Program1_01 {
     public static void main(String[] arguments) {
         int x = 5;
 
-        // [01]
+        // [01] 
         System.out.print("─────[01]─────\n");
         int num = 0;
         for (int j = 0; j < x; j++) {
