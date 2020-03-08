@@ -1,13 +1,20 @@
-public class Program1_09 {
-    public static void main(String[] arguments) {
-        // [09]
-        System.out.println();
-        System.out.print("──────[9]──────\n");
+package PDF;
 
-        for (int j = 0; j < 5; j++) {
-            for (int i = 0; i < 5; i++)
-                System.out.printf("%2d ", (i + j) % 5 + 1);
-            System.out.println();
-        }
-    }
+public class Program1_09 {
+
+	public static void main(String[] args) {
+
+		int n = 5;
+
+		// [09]
+		System.out.print("1-9) number = 5\n");
+		System.out.println();
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++)
+				System.out.printf("%2d ", (i + j) % n + 1);
+			System.out.println();
+		}
+
+	}
 }

@@ -1,16 +1,20 @@
-public class Program1_08 {
-    public static void main(String[] arguments) {
-        int x = 5;
+package PDF;
 
-        // [08]
-        System.out.println();
-        System.out.print("─────[08]─────\n");
-        int num = 0;
-        for (int j = 0; j < x; j++) {
-            num = j + 1;
-            for (int i = 0; i < x; i++)
-                System.out.printf("%2d ", num++);
-            System.out.println();
-        }
-    }
+public class Program1_08 {
+
+	public static void main(String[] args) {
+
+		int n = 5;
+
+		// [08]
+		System.out.print("1-8) number = 5\n");
+		System.out.println();
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++)
+				System.out.printf("%2d ", i + j + 1);
+			System.out.println();
+		}
+
+	}
 }

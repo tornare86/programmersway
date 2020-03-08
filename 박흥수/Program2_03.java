@@ -1,15 +1,22 @@
-public class Program2_03 {
-   public static void main(String[] arguments) {
-      int x = 5;
+package PDF;
 
-      // [03]
-      System.out.print("──────[03]──────\n");
-      for (int i = 0; i < x; i++) {
-         for (int j = 0; j < x - i + 3; j++)
-            System.out.print(" ");
-         for (int j = 0; j < i + 1; j++)
-            System.out.print("*");
-         System.out.println();
-      }
-   }
+public class Program2_03 {
+
+	public static void main(String[] args) {
+
+		int n = 5;
+
+		// [03]
+		System.out.print("2-3) number = 5\n");
+		System.out.println();
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n - i; j++)
+				System.out.printf(" ");
+			for (int j = 0; j < i + 1; j++)
+				System.out.printf("*");
+			System.out.println();
+		}
+
+	}
 }
