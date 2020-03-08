@@ -1,4 +1,4 @@
-Program0_예제.txt 파일을 참고해서,
+Program1_숫자 찍기 예제.txt 파일을 참고해서,  
 Program1_xxx.txt 부터 Program7_xxx.txt 까지 순서대로 풀면 됩니다.  
 설명이 필요한 부분은 원본인 PDF 파일을 참고하세요.  
   
