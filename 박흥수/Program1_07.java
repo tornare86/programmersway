@@ -2,20 +2,19 @@ package PDF;
 
 public class Program1_07 {
 
-	public static void main(String[] args) {
+   public static void main(String[] args) {
 
-		int n = 5;
+      int n = 5;
 
-		// [07]
-		System.out.print("1-7) number = 5\n");
-		System.out.println();
+      // [07]
+      System.out.print("1-7) number = 5\n");
+      System.out.println();
 
-		int num = 0;
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < n - i; j++)
-				System.out.printf("%2d ", ++num);
-			System.out.println();
-		}
+      for (int i = 1; i <= n; i++) {
+         for (int j = 1; j <= n - i + 1; j++)
+            System.out.printf("%2d ", i * n - i * (i - 1) / 2 - (n - j - i + 1));
+         System.out.println();
+      }
 
-	}
+   }
 }
