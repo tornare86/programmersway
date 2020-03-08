@@ -6,7 +6,7 @@ Program1_xxx.txt 부터 Program7_xxx.txt 까지 순서대로 풀면 됩니다.
   
 ---------------------------------------------------------  
   
-# 박흥수: Program3_04.java  
+# 박흥수: Program3_06.java  
 ## 김지욱: Program2_04.java  
 ### 이성진: Program1_10.java  
 ### 이동규: Program1_10.java  
