@@ -4,7 +4,7 @@ public class Program2_05 {
 
 	public static void main(String[] args) {
 
-/*		2-5) number = 5
+/*		2-5) number = 5 
 
 	    *
 	   ***
