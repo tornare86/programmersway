@@ -11,8 +11,8 @@ public class Program1_07 {
 		}
 */		
 		for (int i = 1; i <= n; i++) {
-			for (int j = 1; j <= n - i+1; j++) {
-				System.out.printf("%2d ", n*i+ j);
+			for (int j = 1; j <= n+1 - i; j++) {
+				System.out.printf("%2d ",  (n*i)  - (i*(i-1)/2) + (j+i-6));
 			}
 			System.out.println();
 		}
